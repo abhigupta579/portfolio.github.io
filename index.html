@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            body{
+                margin: 0px;
+            } 
+          *{
+            box-sizing: border-box;
+           } 
+          
+        @media screen and (max-width: 515px) {
+            .col.what{
+                width: 100%;
+            }
+            .maincontent{
+                width: 100%;
+            }
+            .followlogos{
+                width: 100%;
+            }
+            .followlogos ul{
+                width: 100%;
+            }
+         
+            .web{
+                width: 100%;
+            }
+           
+            .res{
+                width: 100%;
+            }
+            .cust{
+                width: 100%;
+            }
+            
+        }
+           .section{
+            width: 100%;
+           }
+           .container{
+            width: 100%;
+            max-width: 1300px;
+            margin: auto;
+           }
+           .row{
+            display: flex;
+           flex-wrap: wrap;
+            justify-content: space-around;
+           }
+           .section.head {
+    background-color: darkslategray;
+    color: white;
+    padding: 15px;
+    
+}
+.col.ui {
+    display: flex;
+    /* padding: 0px; */
+    width: 32%;
+}
+.fa-brands, .fab {
+    margin-top: 32px;
+    font-weight: 400;
+    margin-right: 8px;
+    font-size: 30px;
+}
+.ui h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: revert;
+    margin-top: 32px;
+}
+.col.headlist {
+    width: 55%;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.headlist ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* justify-content: stretch; */
+    list-style: none;
+}
+.headlist li {
+    margin: 18px;
+}
+a.hiremebtn {
+    background-color: mediumseagreen;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    border-radius: 28px;
+    text-decoration: none;
+    color: white;
+}
+i.fa-sharp.fa-solid.fa-magnifying-glass {
+    margin-left: -20px;
+}
+i.fa-regular.fa-moon {
+    font-size: 20px;
+    margin-left: -14px;
+}
+.section.abhi {
+    background-color: darkslategray;
+    color: white;
+}
+.col.abhicontent {
+    width: 50%;
+    padding-top: 80px;
+}
+.abhicontent h2 {
+    font-size: 28px;
+}
+h1.web {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+    height: 65px;
+    margin-bottom: 130px;
+}
+.abhicontent p {
+    font-size: 18px;
+    margin-bottom: 60px;
+    font-family: system-ui;
+}
+a.mportfolio {
+    margin-left: 10px;
+    background-color: dimgrey;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid;
+}
+.abhiimage img {
+    width: 400px;
+}
+.col.bioimg {
+    padding: 60px;
+    margin-top: 25px;
+}
+.bioimg img {
+    width: 460px;
+}
+.col.biocontent {
+    padding: 25px;
+    margin-top: 100px;
+    font-size: 18px;
+    color: darkslategrey;
+    width: 51%;
+}
+.biocontent h3 {
+    color: slategrey;
+    font-size: 17px;
+    font-weight: 100;
+}
+.biocontent h2 {
+    font-size: 38px;
+}
+.biocontent p {
+    font-family: system-ui;
+}
+.maincontent {
+    display: flex;
+
+    justify-content: space-between;
+    width: 75%;
+}
+.name{
+    font-weight: bold;
+}
+.followlogos {
+    display: flex;
+    
+}
+p.follow {
+    margin-top: 35px;
+}
+.followlogos ul {
+    list-style: none;
+    display: inline-flex;
+    
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.followlogos li {
+    margin-left: 14px;
+    margin-top: -15px;
+}
+.fa-brands, .fab {
+    margin-top: 32px;
+    font-weight: 400;
+    margin-right: 8px;
+    font-size: 22px;
+    color: forestgreen;
+}
+a.cvbtn {
+    margin-left: 12px;
+    background-color: #09c35c;
+    text-decoration: none;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 30px;
+}
+i.fab.fa-asymmetrik.ui {
+    color: white;
+    font-size: 30px;
+}
+.section.what {
+    background-color: whitesmoke;
+}
+.what h2 {
+    text-align: center;
+    /* margin-top: 15px; */
+    padding-top: 85px;
+    font-size: 37px;
+    font-weight: bolder;
+}
+.row.what {
+    padding: 50px;
+}
+i.fab.fa-app-store.logo2 {
+    margin-top: 0px;
+    font-size: 40px;
+}
+.col.what {
+    padding: 47px;
+    width: 30;
+    width: 31%;
+    box-shadow: 1px 0px 3px 2px #d3d3d324;
+    background-color: white;
+    border-radius: 10px;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    color: forestgreen;
+    font-size: 40px;
+}
+.what h3 {
+    font-size: 25px;
+}
+.what p {
+    font-size: 20px;
+    color: darkslategrey;
+}
+i.fa-sharp.fa-solid.fa-magnifying-glass.glass2 {
+    margin-left: -20px;
+    font-size: 20px;
+    color: white;
+}
+.section.skills {
+    padding: 60px;
+}
+.col.skillimg {
+   
+    width: 43%;
+}
+.skillimg img {
+    width: 525px;
+}
+.col.skillcont {
+    
+    width: 41%;
+    margin-top: 70px;
+}
+.skillcont h3 {
+    color: grey;
+    font-size: 17px;
+    font-weight: 100;
+    margin-bottom: -16px;
+}
+.skillcont h2 {
+    font-size: 38px;
+    color: black;
+}
+.skillcont p {
+    font-size: 17px;
+    font-family: system-ui;
+    color: darkslategrey;
+    margin-bottom: 45px;
+}
+.skillcont ul {
+    list-style: none;
+    margin-left: -35px;
+    color: darkslategrey;
+    font-family: system-ui;
+    font-size: 17px;
+}
+.skillcont li {
+    margin-bottom: 17px;
+}
+li.bar {
+    background-color: mediumseagreen;
+    height: 6px;
+    border-radius: 20px;
+    margin-top: 14px;
+}
+.section.multi {
+    background-color: whitesmoke;
+    padding: 50px;
+    
+}
+.container.multi {
+    
+    padding: 30px;
+}
+.col.multicontent {
+    width: 60%;
+}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.web {
+    width: 40%;
+    display: flex;
+    
+    margin-right: 25px;
+}
+i.fab.fa-wordpress-simple {
+    font-size: 27px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.multi p {
+    font-size: 18px;
+    font-family: system-ui;
+    
+}
+.design {
+    width: 40%;
+    display: flex;
+    
+}
+i.fab.fa-css3-alt {
+    font-size: 29px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.res {
+    width: 40%;
+    display: flex;
+    
+    margin-right: 25px;
+}
+i.fas.fa-chart-line {
+    font-size: 29px;
+    margin-top: 23px;
+    margin-right: 11px;
+}
+.cust {
+    width: 40%;
+    display: flex;
+    
+}
+i.fas.fa-headset {
+    font-size: 29px;
+    margin-top: 20px;
+    margin-right: 11px;
+}
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.resp {
+    width: 40%;
+    display: flex;
+    
+    margin-right: 25px;
+}
+i.fas.fa-mobile-alt {
+    font-size: 29px;
+    margin-top: 21px;
+    margin-right: 12px;
+}
+.psd {
+    width: 40%;
+    display: flex;
+    
+}
+i.fas.fa-layer-group {
+    font-size: 28px;
+    margin-top: 21px;
+    margin-right: 11px;
+}
+.col.multiimg {
+    width: 40%;
+    margin-top: -45px;
+}
+.section.run {
+    margin-top: 0px;
+    padding: 70px;
+}
+.run h2 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: fangsong;
+}
+.run p {
+    font-size: 19px;
+    font-family: system-ui;
+    color: gray;
+    margin-top: 0px;
+}
+.col.success img{
+    width: 300px;
+}
+.section.success {
+    background-color: whitesmoke;
+    margin-top: 50px;
+    padding: 50px;
+}
+.success h2 {
+    font-size: 38px;
+    font-family: math;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 7px;
+    color: dimgrey;
+}
+.row1.success {
+    padding: 30px;
+    /* margin: 20px; */
+}
+.col.success {
+    margin: 12px;
+    /* border-radius: 62px; */
+}
+.col.success img {
+    width: 370px;
+    border-radius: 9px;
+}
+.row2.success {
+    padding: 0px;
+    margin-top: -30px;
+    margin-left: 28px;
+}
+.section.butcher {
+    background-color: #5c9977;
+    padding-top: 50px;
+    padding-bottom: 33px;
+    
+}
+.butcher img {
+    width: 300px;
+}
+.section.foot {
+    background: #061f24;
+    padding: 50px;
+}
+.foot.ui {
+    display: flex;
+    
+    /* width: 2%; */
+    justify-content: center;
+    color: white;
+}
+i.fab.fa-asymmetrik {
+    font-size: 30px;
+    color: white;
+}
+.ui h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: revert;
+    margin-top: 32px;
+    margin-bottom: 42px;
+}
+.footlist1 ul {
+    color: darkgrey;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    
+    justify-content: center;
+    /* margin: 44px; */
+    font-family: math;
+}
+.footlist1 li {
+    margin-right: 28px;
+}
+span.fas.fa-phone.me-2 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+span.fas.fa-envelope.me-2 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+span.fas.fa-map-marker.me-2 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+.row.foot {
+    margin-top: 40px;
+    color: darkgrey;
+    font-size: 18px;
+    justify-content: space-between;
+    padding: 40px;
+}
+.foot h3 {
+    color: mediumseagreen;
+    margin-top: 10px;
+}
+.foot ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+     margin-top: -8px;
+}
+.col.foot li {
+    /* color: darkslategrey; */
+    margin-right: 30px;
+}
+span.fab.me-2.fa-facebook-f {
+    font-size: 14px;
+    color: darkgrey;
+}
+span.fab.me-2.fa-twitter {
+    font-size: 14px;
+    color: darkgrey;
+}
+span.fab.me-2.fa-google-plus {
+    font-size: 14px;
+    color: darkgrey;
+}
+span.fab.me-2.fa-vk {
+    font-size: 14px;
+    color: darkgrey;
+}
+span.fab.me-2.fa-pinterest {
+    font-size: 14px;
+    color: darkgrey;
+}
+
+
+@media screen and (max-width: 515px) {
+           
+    .col.what {
+                width: 100%;
+            }
+         
+         .col.skillimg {
+                width: 100%;
+            }
+            .col.skillcont {
+                width: 100%;
+            }
+            .col.bio {
+                width: 100%;
+            }
+            .web {
+                width: 100%;
+            }
+            .design{
+                width: 100%;
+            }
+            .res {
+                width: 100%;
+            }
+            .cust {
+                width: 100%;
+            }
+            .resp {
+                width: 100%;
+            }
+            .psd {
+                width: 100%;
+            }
+            .col.multiimg {
+                width: 100%;
+            }
+            .col.multicontent {
+                width: 100%;
+            }
+            .col.multiimg {
+                width: 100%;
+            }
+            
+            .col.abhicontent {
+                width: 100%;
+
+            }
+            .col.abhiimage {
+                width: 100%;
+            }
+            .col.ui {
+                width: 100%;
+            }
+            .col.headlist {
+                width: 100%;
+            }
+            .col.biocontent {
+                width: 100%;
+            }
+            .col.bioimg {
+                width: 100%;
+            }
+            .footlist1 li {
+                width: 100%;
+            }
+            .headlist li {
+                width: 100%;
+            }
+            body {
+                width: 100%;
+            }
+        }
+        </style>
+    </head>
+
+    <body>
+         <div class="section head">
+            <div class="container head">
+                <div class="row head">
+                    <div class="col ui">
+                        <i class="fab fa-asymmetrik ui"></i>
+                        <h2>UI Portfolio</h2>
+                    </div>
+
+                    <div class="col headlist">
+                        <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Services</li>
+                            <li>Pages</li>
+                            <li>Contact</li>
+                            <li>
+                                <a href="" class="hiremebtn">Hire Me</a>
+                            </li>
+                            <li><i class="fa-sharp fa-solid fa-magnifying-glass glass2"></i></li>
+                            <li><i class="fa-regular fa-moon"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+         <div class="section abhi">
+            <div class="container abhi">
+                <div class="row abhi">
+                    <div class="col abhicontent">
+                        <h2>Hi, I'm Abhi Gupta</h2>
+                        <h1 class="web">Web Developer</h1>
+                        <p>
+                            I love Graphic design and Photography and have been working on my portfolio<br>
+                            since 2016. I Can give your business a new Creative start right away!
+                        </p>
+                        <a href="" class="hiremebtn">Hire Me</a>
+                        <a href="" class="mportfolio">My Portfolio</a>
+
+                    </div>
+
+                    <div class="col abhiimage">
+                        <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/banner.png">
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+         <div class="section bio">
+            <div class="container bio">
+                <div class="row abhi">
+                   <div class="col bioimg">
+                    <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/about.jpg">
+                   </div>
+                   
+                   <div class="col biocontent">
+                    <h3>MY BIOGRAPHY</h3>
+                    <h2>
+                        A Lead UI Designer & Web Developer Based In UK
+                    </h2>
+                    <p>
+                        I love Graphic design and Photography and have been working on my
+                        portfolio since 2016. I Can give your business a new Creative start right
+                        away! Contact me and we will discuss your projects!
+                    </p><hr>
+
+                    <div class="maincontent">
+                        <div class="col maincont1">
+                          <p class="cont1">
+                            <span class="name"> Name:</span>&nbsp; Abhi Gupta
+                          </p>
+                          <p class="cont2">
+                            <span class="name"> Email:</span>&nbsp; example@mail.com
+                          </p>   
+                        </div>
+                        <div class="col maincont2">
+                            <p class="cont1">
+                              <span class="name">From:</span>&nbsp; London, UK
+                            </p>
+                            <p class="cont2">
+                              <span class="name">Phone:</span>&nbsp; +21 234 567 8901
+                            </p>   
+                        </div>    
+                    </div>
+                    <div class="followlogos">
+                     <p class="follow">
+                        Follow me on
+                     </p>
+                     <ul>
+                     <li><i class="fa-brands fa-behance"></i></li>
+                     <li><i class="fa-brands fa-linkedin-in"></i></li>
+                     <li><i class="fa-brands fa-facebook-f"></i></li>
+                     <li><i class="fa-brands fa-twitter"></i></li>
+                    </ul>
+                    </div>
+
+                    <a href="" class="hiremebtn">Hire Me</a>
+                    <a href="" class="cvbtn">Download CV</a>
+                   </div>
+                </div>
+
+            </div>
+         </div>
+
+
+         <div class="section what">
+            <div class="container what">
+                <h2>What I Do For You</h2>
+                <div class="row what">
+                    <div class="col what">
+                        <i class="fas fa-chalkboard"></i>
+                        <h3>Web Development</h3>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.
+                        </p>
+                    </div>
+                
+                    <div class="col what">
+                        <i class="fab fa-app-store logo2"></i>
+                        <h3>App development</h3>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.
+                        </p>
+                    </div>
+
+                    <div class="col what">
+                        <i class="fas fa-camera-retro"></i>
+                        <h3>Photography</h3>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque laudan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+         <div class="section skills">
+            <div class="container skills">
+                <div class="row skills">
+                    <div class="col skillimg">
+                        <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/about1.jpg">
+                    </div>
+
+                    <div class="col skillcont">
+                       <h3>MY SKILLS</h3>
+                       <h2>My Featured Skills</h2>
+                       <p>
+                        I Specialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work. And I always ready to impress the audience with my Creativity.
+                       </p>
+                       <ul>
+                        <li>UI/UX Design</li>
+                        <li class="bar"></li>
+                        <li>Ideas & Technology</li>
+                        <li class="bar"></li>
+                        <li>Branding Design</li>
+                        <li class="bar"></li>
+                        <li>Responsive Web Design</li>
+                        <li class="bar"></li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+         </div>
+        
+
+
+         <div class="section multi">
+            <div class="container multi">
+                <div class="row multi">
+                    <div class="col multicontent">
+                       <div class="row1"> 
+                        <div class="web">
+                            <i class="fab fa-wordpress-simple"></i>
+                            <div class="webcont">
+                                <h2>Web Development</h2>
+                                <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+                            </div>
+                        </div>
+
+                        <div class="design">
+                            <i class="fab fa-css3-alt"></i>
+                            <div class="designcontent">
+                                <h2>Design Trends</h2>
+                                <p>
+                                    Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.
+                                </p>
+                            </div></div></div>
+                   
+                           <div class="row2"> 
+                            <div class="res">
+                                <i class="fas fa-chart-line"></i>
+                                <div class="rescontent">
+                                    <h2>Research & Analysis</h2>
+                                    <p>
+                                        Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.
+                                    </p>
+                                </div></div>
+
+                                <div class="cust">
+                                    <i class="fas fa-headset"></i>
+                                    <div class="custcontent">
+                                        <h2>Customer support</h2>
+                                        <p>
+                                            Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.
+                                        </p>
+                                    </div></div></div>
+
+                                   <div class="row3"> 
+                                    <div class="resp">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <div class="respcontent">
+                                            <h2>Responsive design</h2>
+                                            <p>
+                                                Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.
+                                            </p>
+                                        </div></div>
+
+                                        <div class="psd">
+                                            <i class="fas fa-layer-group"></i>
+                                            <div class="psdcontent">
+                                                <h2>PSD Design</h2>
+                                                <p>
+                                                    Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div></div>
+
+                                    <div class="col multiimg">
+                                        <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/banner.png">
+                                    </div>
+                                </div>
+                           </div>
+                       </div>
+
+
+                       <div class="section run">
+                        <div class="container">
+                            <div class="row run">
+                                <div class="col run">
+                                    <h2>1500</h2>
+                                    <p>Finished Projects</p>
+                                </div>
+                                <div class="col run">
+                                    <h2>2500</h2>
+                                    <p>Working Hours</p>
+                                </div>
+                                <div class="col run">
+                                    <h2>1280</h2>
+                                    <p>Online Support</p>
+                                </div>
+                                <div class="col run">
+                                    <h2>3020</h2>
+                                    <p>Happy Customers</p>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+
+
+                       <div class="section success">
+                        <div class="container">
+                            <h2>My Success Work</h2>
+                            <div class="row1 success">
+                                <div class="col success">
+                                  <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/blog1.jpg">
+                                </div>
+                                <div class="col success">
+                                    <img src=" https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/blog2.jpg">
+                                </div>
+                                <div class="col success">
+                                    <img src=" https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/blog3.jpg">
+                                </div></div>
+                                <div class="row2 success">
+                                <div class="col success">
+                                    <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/blog4.jpg">
+                                </div>
+                                <div class="col success">
+                                    <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/blog5.jpg">
+                                </div>
+                                <div class="col success">
+                                    <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/blog6.jpg">
+                                </div></div>
+                            </div>
+                        </div>
+                       </div>
+
+
+                       <div class="section butcher">
+                        <div class="container">
+                            <div class="row butcher">
+                                <div class="col butcher">
+                                    <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/logo5.png">
+                                </div>
+                                <div class="col butcher">
+                                    <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/logo1.png">
+                                </div>
+                                <div class="col butcher">
+                                    <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/logo4.png">
+                                </div>
+                                <div class="col butcher">
+                                    <img src="https://wp.w3layouts.com/ui-portfolio/wp-content/themes/ui-portfolio/assets/images/logo3.png">
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+
+
+                       <div class="section foot">
+                        <div class="foot ui">
+                        <i class="fab fa-asymmetrik"></i>
+                           <h2>UI Portfolio</h2></div>
+                        <div class="container">
+                            <div class="footlist1">
+                                <ul>
+                                  <li><span class="fas fa-phone me-2"></span></li>
+                                  <li class="num">+12 345 678 900</li>
+                                  <li><span class="fas fa-envelope me-2"></span></li>
+                                  <li>info@example.com</li>
+                                  <li><span class="fas fa-map-marker me-2"></span></li>
+                                  <li>208 Avenue street, UK - 62617.</li>
+                                </ul>
+                            </div>
+
+                            <div class="row foot">
+                                <div class="col foot">
+                                    <p class="footer">
+                                        © 2023 UI Portfolio.                        All Rights Reserved |
+                                        WordPress Theme by                        
+                                    </p>
+                                    <h3>W3Layouts.</h3>
+                                </div>
+                                <div class="col foot">
+                                    <ul>
+                                        <li><span class="fab me-2 fa-facebook-f"></span></li>
+                                        <li><span class="fab me-2 fa-twitter"></span></li>
+                                        <li><span class="fab me-2 fa-google-plus"></span></li>
+                                        <li><span class="fab me-2 fa-pinterest"></span></li>
+                                        <li><span class="fab me-2 fa-vk"></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                   </body>
+               </html>
